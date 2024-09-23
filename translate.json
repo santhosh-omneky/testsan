@@ -1,0 +1,2413 @@
+{
+    "adGallery": {
+      "notifications": {
+        "exportAds": {
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          }
+        }
+      },
+      "header": {
+        "actions": {
+          "back": "Back to Project",
+          "export": {
+            "label": "Export",
+            "status": "Downloaded:"
+          },
+          "manageContent": "Manage Content"
+        }
+      },
+      "main": {
+        "loading": "Generating...",
+        "naming": "Export Naming Convention",
+        "description": "Customize file names for your exported ads",
+        "campaign": "Campaign",
+        "template": "Template",
+        "language": "Language",
+        "adType": "Ad Type",
+        "size": "Size",
+        "number": "Number",
+        "title": "Success",
+        "subTitle": "File Name Structure",
+        "message": "Downloading ads...",
+        "prefix": "Prefix (optional)",
+        "export": "Export",
+        "example": "Example"
+      }
+    },
+    "adConceptItems": {
+      "emotionalAppeal": {
+        "name": "Emotional Appeal"
+      },
+      "productSales": {
+        "name": "Product Sales"
+      },
+      "meme": {
+        "name": "Meme"
+      },
+      "abstract": {
+        "name": "Abstract"
+      },
+      "purposeDriven": {
+        "name": "Purpose Driven"
+      },
+      "antiHumor": {
+        "name": "Anti-Humor"
+      },
+      "feelingLucky": {
+        "name": "Feeling Lucky (random)"
+      }
+    },
+    "adObjectiveItems": {
+      "brandAwareness": {
+        "name": "Brand Awareness"
+      },
+      "sales": {
+        "name": "Sales"
+      },
+      "leads": {
+        "name": "Leads"
+      },
+      "engagement": {
+        "name": "Engagement"
+      },
+      "traffic": {
+        "name": "Traffic"
+      },
+      "downloads": {
+        "name": "Downloads"
+      },
+      "fundraising": {
+        "name": "Fundraising"
+      }
+    },
+    "adTacticItems": {
+      "scarcity": {
+        "name": "Scarcity",
+        "description": "Creating a sense of limited availability or urgency to encourage immediate action. Only 5 spots left! Grab yours now before they're gone!"
+      },
+      "socialProof": {
+        "name": "Social Proof",
+        "description": "Leveraging the influence of others to demonstrate that a product or service is popular or trustworthy. Join over 1 million satisfied customers who love our product!"
+      },
+      "authority": {
+        "name": "Authority",
+        "description": "Using endorsements or featuring experts to establish credibility and trustworthiness. As recommended by top dermatologists worldwide."
+      },
+      "reciprocity": {
+        "name": "Reciprocity",
+        "description": "Offering something of value upfront to encourage the viewer to reciprocate by taking a desired action. Get a free e-book when you sign up for our newsletter."
+      },
+      "fearOfMissingOut": {
+        "name": "Fear of Missing Out (FOMO)",
+        "description": "Highlighting the potential negative consequences of not taking advantage of an opportunity. Don't miss the biggest sale of the year! Limited time only!"
+      },
+      "emotionalAppeal": {
+        "name": "Emotional Appeal",
+        "description": "Evoking strong emotions to create a connection between the viewer and the product or service. Experience the joy and happiness of a carefree vacation."
+      },
+      "personalization": {
+        "name": "Personalization",
+        "description": "Tailoring the ad content to the individual's preferences, needs, or demographics. Hey [Name], we have an exclusive offer just for you!"
+      },
+      "bandwagonEffect": {
+        "name": "Bandwagon Effect",
+        "description": "Encouraging the viewer to join or align with a group or trend to feel a sense of belonging. Join the bitcoin revolution and learn about crypto trading with our community!"
+      },
+      "authorityBias": {
+        "name": "Authority Bias",
+        "description": "Presenting information in a way that appears objective and backed by experts or data. 9 out of 10 dentists recommend our toothpaste for a brighter smile."
+      },
+      "incentives": {
+        "name": "Incentives",
+        "description": "Offering rewards or incentives to motivate the viewer to take a specific action. Refer a friend and get 20% off your next purchase!"
+      }
+    },
+    "adToneItems": {
+      "professional": {
+        "name": "Professional",
+        "description": "This tone is formal, respectful, and authoritative. It's often used by B2B companies, financial institutions, and legal firms."
+      },
+      "friendly": {
+        "name": "Friendly",
+        "description": "This tone is casual, warm, and approachable. It's often used by consumer brands that want to build a close, personal relationship with their customers."
+      },
+      "informative": {
+        "name": "Informative",
+        "description": "This tone is educational, clear, and thorough. It's often used by tech companies, educational institutions, and organizations that aim to provide valuable information to their audience."
+      },
+      "inspirational": {
+        "name": "Inspirational",
+        "description": "This tone is uplifting, empowering, and visionary. It's often used by non-profit organizations, motivational brands, and companies that aim to inspire their audience."
+      },
+      "playful": {
+        "name": "Playful",
+        "description": "This tone is humorous, quirky, and fun. It's often used by lifestyle brands, children's brands, and companies that want to entertain their audience."
+      },
+      "passionate": {
+        "name": "Passionate",
+        "description": "This tone is energetic, enthusiastic, and emotional. It's often used by activist brands, sports brands, and companies that want to ignite passion in their audience."
+      },
+      "sophisticated": {
+        "name": "Sophisticated",
+        "description": "This tone is refined, elegant, and intelligent. It's often used by luxury brands, art institutions, and companies that want to communicate a sense of exclusivity."
+      },
+      "rebellious": {
+        "name": "Rebellious",
+        "description": "This tone is defiant, bold, and disruptive. It's often used by innovative startups, punk brands, and companies that want to challenge the status quo."
+      },
+      "trustworthy": {
+        "name": "Trustworthy",
+        "description": "This tone is reliable, honest, and sincere. It's often used by healthcare organizations, news outlets, and companies that want to build trust with their audience."
+      }
+    },
+    "adTypeItems": {
+      "metaCarousel": {
+        "name": "Meta Carousel",
+        "description": "FB Feed, FB Video Feeds, FB Business Explore, IG Explore, Audience Network Rewarded Video, Messenger Stories, FB Groups Feed, IG Shops"
+      },
+      "metaImage": {
+        "name": "Meta Image",
+        "description": "FB Feed, FB Business Explore, FB Video Feeds, Audience Network Rewarded Video"
+      },
+      "metaVideo": {
+        "name": "Meta Video",
+        "description": "FB Feed, FB Business Explore, FB Right Column, FB Groups Feed, IG Shop"
+      }
+    },
+    "adWritingStyleItem": {
+      "descriptive": {
+        "name": "Descriptive",
+        "description": "This style aims to paint a picture and immerse the reader in the experience. It's characterized by detailed descriptions, vivid imagery, and sensory language."
+      },
+      "expository": {
+        "name": "Expository",
+        "description": "This style is used to explain, describe, or inform. It's straightforward and fact-based, often featuring logical organization and clear, concise language."
+      },
+      "narrative": {
+        "name": "Narrative",
+        "description": "This style tells a story with a clear sequence of events. It often includes elements like characters, setting, conflict, and resolution, and is frequently used in novels, short stories, and narrative essays."
+      },
+      "persuasive": {
+        "name": "Persuasive",
+        "description": "This style aims to convince the reader of a particular viewpoint. It employs techniques such as appeals to emotion, logical arguments, and credible evidence to persuade the reader."
+      },
+      "argumentative": {
+        "name": "Argumentative",
+        "description": "This is similar to persuasive writing but often takes a more formal approach, rigorously presenting and refuting different points of view to build a strong argument."
+      },
+      "technical": {
+        "name": "Technical",
+        "description": "This style is used to explain complex topics or processes in a clear, straightforward manner. It's common in user manuals, scientific papers, and how-to guides."
+      },
+      "business": {
+        "name": "Business",
+        "description": "This style prioritizes clarity, conciseness, and professionalism. It's used in memos, reports, proposals, and other business-related communications."
+      },
+      "journalistic": {
+        "name": "Journalistic",
+        "description": "This style involves reporting facts accurately and objectively. It often uses the inverted pyramid structure, where the most important information is presented first."
+      },
+      "academic": {
+        "name": "Academic",
+        "description": "This style is formal and structured, used in scholarly articles, textbooks, and theses. It typically involves presenting an argument or findings based on rigorous research and evidence."
+      },
+      "creative": {
+        "name": "Creative",
+        "description": "This is a broad style category that allows for more personal expression and originality. It's often used in fiction, poetry, and personal essays, but can also be applied to certain types of advertising or content marketing."
+      },
+      "conversational": {
+        "name": "Conversational",
+        "description": "This style mimics spoken language and is often more informal and engaging. It's commonly used in blog posts, social media, and some types of advertising or content marketing."
+      }
+    },
+    "countries": {
+      "bd": "Bangladesh",
+      "de": "Germany",
+      "us": "United States",
+      "gb": "United Kingdom",
+      "es": "Spain",
+      "fr": "France",
+      "it": "Italy",
+      "in": "India",
+      "pt": "Portugal",
+      "br": "Brazil",
+      "nl": "Netherlands",
+      "pl": "Poland",
+      "ru": "Russia",
+      "th": "Thailand",
+      "ph": "Philippines",
+      "tr": "Turkey",
+      "jp": "Japan",
+      "kr": "South Korea",
+      "cn": "China",
+      "tw": "Taiwan",
+      "vn": "Vietnam"
+    },
+    "creativeBriefBuilder": {
+      "header": {
+        "name": {
+          "default": "Untitled Campaign",
+          "placeholder": "Untitled Campaign"
+        },
+        "actions": {
+          "selectTemplate": "Select Template",
+          "copy": "Copy Link",
+          "copied": "Copied Link",
+          "skip": "Skip"
+        }
+      },
+      "filters": {
+        "form": {
+          "language": {
+            "search": {
+              "empty": "No items",
+              "placeholder": "Search"
+            },
+            "placeholder": "Pick value",
+            "required": "Language is required"
+          },
+          "productDescription": {
+            "label": "Product/Services description",
+            "placeholder": "Write description of product/services",
+            "required": "Product description is required"
+          },
+          "audienceDescription": {
+            "label": "Target Audience",
+            "placeholder": "Add audience"
+          },
+          "adConceptItems": {
+            "label": "Ad Concepts",
+            "required": "Ad Concepts is required",
+            "versions": "Versions"
+          },
+          "adObjectiveItems": {
+            "label": "Objectives",
+            "required": "Objective is required"
+          },
+          "adTypeItems": {
+            "label": "Ad Types",
+            "placeholder": "Select",
+            "required": "Ad Types is required"
+          },
+          "adTacticItems": {
+            "label": "Persuasion Tactic",
+            "placeholder": "Select Persuasion Tactic"
+          },
+          "adToneItems": {
+            "label": "Tone",
+            "placeholder": "Select Tone"
+          },
+          "adWritingStyleItems": {
+            "label": "Writing Style",
+            "placeholder": "Select Writing Style"
+          },
+          "mediaRequirementsFlag": {
+            "label": "Include Media Requirements"
+          },
+          "actions": {
+            "generate": "Generate Brief",
+            "addFile": "Add File",
+            "lastUploaded": "Last Uploaded",
+            "viewAll": "View All",
+            "dragAndDropOrBrowse": "Drag And Drop Your Files Here or Browse",
+            "uploadImages": "Upload Images",
+            "viewAllUploadedImages": "View All Uploaded Images"
+          },
+          "menu": {
+            "add": "Add Additional context",
+            "keywords": "Keywords",
+            "productAssets": "Product Asset(s)",
+            "personaAssets": "Persona Asset(s)",
+            "backgroundAssets": "Background Asset(s)",
+            "persuasionTactic": "Persuasion Tactic",
+            "tone": "Tone",
+            "writingStyle": "Writing Style"
+          }
+        }
+      },
+      "generate": {
+        "message": "Cannot generate: Internal Error",
+        "success": "Success",
+        "error": "Error"
+      },
+      "notifications": {
+        "createCreativeBrief": {
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          }
+        },
+        "createProject": {
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          },
+          "info": {
+            "process": {
+              "title": "Creating Project..."
+            }
+          }
+        },
+        "saveCreativeBrief": {
+          "success": "Creative brief successfully saved!",
+          "failure": "Failed to save creative brief..."
+        }
+      },
+      "main": {
+        "editor": {
+          "defaultVersion": {
+            "name": "Version"
+          },
+          "imageGallery": {
+            "actions": {
+              "generate": "Generate more images"
+            }
+          },
+          "menu": {
+            "actions": {
+              "reGenerate": "Regenerate"
+            },
+            "form": {
+              "prompt": {
+                "placeholder": "Generate with AI...",
+                "required": "Prompt is required"
+              }
+            }
+          }
+        }
+      },
+      "suggested": {
+        "suggest": "Suggested keywords",
+        "add": "Add keywords..."
+      }
+    },
+    "currencies": {
+      "bd": "Bangladeshi Taka",
+      "de": "Euro",
+      "us": "US Dollar",
+      "gb": "British Pound",
+      "es": "Euro",
+      "fr": "Euro",
+      "it": "Euro",
+      "in": "Indian Rupee",
+      "pt": "Euro",
+      "br": "Brazilian Real",
+      "nl": "Euro",
+      "pl": "Polish Zloty",
+      "ru": "Russian Ruble",
+      "th": "Thai Baht",
+      "ph": "Philippine Peso",
+      "tr": "Turkish Lira",
+      "jp": "Japanese Yen",
+      "kr": "South Korean Won",
+      "cn": "Chinese Yuan",
+      "tw": "New Taiwan Dollar",
+      "vn": "Vietnamese Dong"
+    },
+    "error401": {
+      "main": {
+        "title": "Sorry, the page you're trying to access is unavailable.",
+        "actions": {
+          "back": "Return Home"
+        }
+      }
+    },
+    "errorUnauthorizedBrand": {
+      "main": {
+        "title": "Sorry, you do not have access to this brand.",
+        "actions": {
+          "back": "Return to your brand"
+        }
+      }
+    },
+    "error404": {
+      "main": {
+        "title": "Sorry, the page you're trying to access is not working.",
+        "actions": {
+          "back": "Return Home"
+        }
+      }
+    },
+    "error500": {
+      "main": {
+        "title": "Oops! Internal Server Error!",
+        "actions": {
+          "back": "Return Home"
+        }
+      }
+    },
+    "insights": {
+      "header": {
+        "title": {
+          "brandSpecific": "Analyze",
+          "global": "Global Insights",
+          "predictiveInsights": "Predictive Insights"
+        },
+        "filters": {
+          "dateRange": {
+            "title": "Date Range",
+            "lastSevenDays": "Last 7 Days",
+            "lastThirtyDays": "Last 30 Days",
+            "lastSixtyDays": "Last 60 Days",
+            "lastNinetyDays": "Last 90 Days",
+            "custom": {
+              "label": "Custom Date Range",
+              "placeholder": "Pick date range"
+            }
+          },
+          "sortOn": "Sort On",
+          "noFilters": "No Filters Applied"
+        },
+        "actions": {
+          "configure": "Configure your user and account settings.",
+          "goToAnalyze": "Go to Analyze",
+          "goToPredictiveInsights": "Go to Predictive Insights",
+          "export": {
+            "tooltip": "Generate a report.",
+            "modalTitle": "Generate Report",
+            "button": "Generate Report",
+            "notificationTitle": "Your report is being generated",
+            "notificationText": "You will receive an email with the report soon.",
+            "config": {
+              "channels": {
+                "label": "Channels",
+                "options": {
+                  "facebook": "Facebook",
+                  "google": "Google"
+                }
+              },
+              "reportLevels": {
+                "label": "Report Levels",
+                "options": {
+                  "channel": "Channel",
+                  "campaign": "Campaign",
+                  "adGroup": "Ad Group"
+                }
+              },
+              "reportTimeBreakdowns": {
+                "label": "Report Time Breakdowns",
+                "options": {
+                  "weekOverWeek": "Week over Week",
+                  "monthOverMonth": "Month over Month"
+                }
+              },
+              "weekStartDay": {
+                "label": "Week Start Day",
+                "options": {
+                  "monday": "Monday",
+                  "tuesday": "Tuesday",
+                  "wednesday": "Wednesday",
+                  "thursday": "Thursday",
+                  "friday": "Friday",
+                  "saturday": "Saturday",
+                  "sunday": "Sunday"
+                }
+              },
+              "exportType": {
+                "label": "Export Type"
+              },
+              "validationErrors": {
+                "noChannels": "Please select at least one channel.",
+                "noReportLevels": "Please select at least one report level.",
+                "noReportTimeBreakdowns": "Please select at least one report time breakdown.",
+                "noWeekStartDay": "Please select a week start day.",
+                "noExportType": "Please select an export type."
+              }
+            }
+          }
+        }
+      },
+      "sections": {
+        "title": {
+          "metrics": "Metrics",
+          "topCreatives": "Top Creatives",
+          "bottomCreatives": "Bottom Creatives",
+          "creativeInsights": "Creative Insights",
+          "contentAnalysis": "Content Analysis"
+        }
+      },
+      "actions": {
+        "expand": "Expand",
+        "details": "Details",
+        "viewMore": "View More",
+        "viewLess": "View Less",
+        "clearFilters": "Clear Filters",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "settings": {
+        "title": "Settings",
+        "metricsSelection": {
+          "title": "Metrics Selection",
+          "description": "Customize your tracked metrics and their display order here. Toggle to include or exclude metrics and drag and drop to reorder them. Hover over each metric to view its description.",
+          "disclaimer": "Note: Changes made here will only affect your current user.",
+          "saved": "Metrics Selection Saved"
+        },
+        "dimensionsSelection": {
+          "title": "Dimensions Selection",
+          "description": "Customize your tracked dimensions and their display order here. Toggle to include or exclude dimensions and drag and drop to reorder them. Hover over each dimension to view its description.",
+          "disclaimer": "Note: Changes made here will only affect your current user.",
+          "saved": "Dimensions Selection Saved"
+        },
+        "confidenceThreshold": {
+          "title": "Confidence Threshold",
+          "description": "Some metrics, such as CTR or CPC, need many impressions to be accurate. The slider lets you control how many impressions are considered ‘enough’ for confident results based on the width of the 95% confidence interval. Values with low confidence can then be filtered to avoid showing misleading information, or they can be shown but marked with an asterisk (*).",
+          "disclaimer": "Note: Changes made here will only affect your current user.",
+          "instructions": "Adjust the confidence threshold by defining how many impressions are considered 'enough'. Moving the slider to the left will tolerate lower confidence values, while moving it to the right will set a higher confidence threshold.",
+          "fewerImpressions": "Fewer Impressions",
+          "moreImpressions": "More Impressions",
+          "saved": "Confidence Configuration Saved"
+        },
+        "conversionConfiguration": {
+          "title": "Conversion Configuration",
+          "description": "Conversion configuration allows you to set your 'Conversion' goal for each platform. This will allow you to display data across channels for similar or the same goals.",
+          "disclaimer": "Note: Changes made here will affect ALL USERS of this brand.",
+          "saved": "Conversion Configuration Saved"
+        },
+        "metrics": {
+          "spend": {
+            "tooltipLabel": "Amount of money spent on the creative"
+          },
+          "impressions": {
+            "tooltipLabel": "Number of times the creative is shown"
+          },
+          "cpm": {
+            "tooltipLabel": "Cost per thousand impressions"
+          },
+          "clicks": {
+            "tooltipLabel": "Number of clicks on the creative"
+          },
+          "ctr": {
+            "tooltipLabel": "Click-through rate"
+          },
+          "cpc": {
+            "tooltipLabel": "Cost per click"
+          },
+          "pageLikes": {
+            "tooltipLabel": "Number of likes"
+          },
+          "thumbstop": {
+            "tooltipLabel": "Number of views on the video creative"
+          },
+          "thumbstopRate": {
+            "tooltipLabel": "Number of views on the video creative per impression"
+          },
+          "appInstalls": {
+            "tooltipLabel": "Number of app installs"
+          },
+          "costPerInstall": {
+            "tooltipLabel": "Cost per app install"
+          },
+          "messageConversations": {
+            "tooltipLabel": "Number of message conversations"
+          },
+          "costPerMessageConversation": {
+            "tooltipLabel": "Cost per message conversation"
+          },
+          "leads": {
+            "tooltipLabel": "Number of leads"
+          },
+          "atcs": {
+            "tooltipLabel": "Number of Add To Cart actions"
+          },
+          "registrations": {
+            "tooltipLabel": "Number of registrations"
+          },
+          "costPerRegistration": {
+            "tooltipLabel": "Cost per registration"
+          },
+          "trial": {
+            "tooltipLabel": "Number of trials"
+          },
+          "conversions": {
+            "tooltipLabel": "Number of defined conversion actions"
+          },
+          "cpa": {
+            "tooltipLabel": "Cost per defined conversion action"
+          },
+          "purchases": {
+            "tooltipLabel": "Number of purchases"
+          },
+          "costPerPurchase": {
+            "tooltipLabel": "Cost per purchase"
+          },
+          "purchaseValue": {
+            "tooltipLabel": "Total value of purchases"
+          },
+          "roas": {
+            "tooltipLabel": "Return on ad spend"
+          }
+        },
+        "dimensions": {
+          "channel": {
+            "tooltipLabel": "The platform/website where the creative is shown"
+          },
+          "campaign": {
+            "tooltipLabel": "The marketing campaign to which the creative belongs"
+          },
+          "adGroup": {
+            "tooltipLabel": "The ad group to which the creative belongs"
+          },
+          "creativeType": {
+            "tooltipLabel": "The type of the creative"
+          },
+          "creativeOrientation": {
+            "tooltipLabel": "The orientation of the creative"
+          },
+          "videoLength": {
+            "tooltipLabel": "The length of the video creative"
+          },
+          "headline": {
+            "tooltipLabel": "The headline of the creative"
+          },
+          "body": {
+            "tooltipLabel": "The body text of the creative"
+          },
+          "cta": {
+            "tooltipLabel": "The call-to-action of the creative"
+          },
+          "persuasionTactic": {
+            "tooltipLabel": "The predominant persuasion tactic used in the creative"
+          },
+          "writingStyle": {
+            "tooltipLabel": "The predominant writing style used in the creative"
+          },
+          "toneOfVoice": {
+            "tooltipLabel": "The predominant tone of voice used in the creative"
+          },
+          "hookValue": {
+            "tooltipLabel": "The predominant hook used in the creative to grab the viewer's attention"
+          },
+          "gender": {
+            "tooltipLabel": "The gender of the persona displayed in the creative"
+          },
+          "offerInAd": {
+            "tooltipLabel": "The presence of an offer in the creative"
+          },
+          "backgroundColor": {
+            "tooltipLabel": "The predominant background color used in the creative"
+          },
+          "audioPresent": {
+            "tooltipLabel": "The presence of audio in the creative"
+          },
+          "personStatus": {
+            "tooltipLabel": "The point of view displayed in the creative"
+          },
+          "narratorGender": {
+            "tooltipLabel": "The gender of the narrator in the creative"
+          }
+        }
+      },
+      "notifications": {
+        "confidenceThreshold": {
+          "filtered": "Some values are filtered due to low confidence.",
+          "showLowConfidence": "* indicates a value with low confidence. Hover for details.",
+          "filteringLowConfidence": "Filtering Low Confidence Values",
+          "includingLowConfidence": "Including Low Confidence Values",
+          "willBeFiltered": "Values with low confidence will be filtered.",
+          "willBeIncluded": "Values with low confidence will be included, but marked with an asterisk (*).",
+          "basedOnObserved": "Based on the observed events, the true value of"
+        },
+        "general": {
+          "unexpectedError": "Something unexpected happened.",
+          "noData": "No data available.",
+          "noMatchingCreative": "No matching creative found.",
+          "brandNotFound": "Brand not found.",
+          "inTheWorks": "In the works, check back again later!"
+        }
+      },
+      "reusablePhrases": {
+        "notApplicable": "N/A",
+        "isGreaterThan": "is greater than",
+        "isBetween": "is between",
+        "and": "and",
+        "to": "to"
+      },
+      "creativeDetail": {
+        "creativeInsightsSummary": {
+          "title": "Creative Insights Summary"
+        },
+        "keyAspects": {
+          "title": "Key Aspects"
+        },
+        "recommendations": {
+          "title": "Recommendations"
+        },
+        "persuasionTactic": {
+          "title": "Persuasion Tactic"
+        },
+        "writingStyle": {
+          "title": "Writing Style"
+        },
+        "toneOfVoice": {
+          "title": "Tone of Voice"
+        },
+        "hookValue": {
+          "title": "Hook Type (Video)"
+        }
+      }
+    },
+    "predictiveInsights": {
+      "phrases": {
+        "predicted": "Predicted",
+        "top": "Top",
+        "featuresThatInfluence": "features that influence"
+      },
+      "assets": {
+        "media": "media",
+        "text": "text"
+      }
+    },
+    "languages": {
+      "bnBd": "Bengali",
+      "deDe": "German",
+      "enUs": "English US",
+      "enGb": "English GB",
+      "esEs": "Spanish",
+      "frFr": "French",
+      "itIt": "Italian",
+      "hiIn": "Hindi",
+      "ptPt": "Portuguese",
+      "ptBr": "Portuguese (Brazil)",
+      "nlNl": "Dutch",
+      "plPl": "Polish",
+      "ruRu": "Russian",
+      "thTh": "Thai",
+      "tlPh": "Tagalog",
+      "trTr": "Turkish",
+      "jaJp": "Japanese",
+      "koKr": "Korean",
+      "zhCn": "Chinese (Simplified)",
+      "zhTw": "Chinese (Traditional)",
+      "viVn": "Vietnamese"
+    },
+    "library": {
+      "header": {
+        "title": "Brand Management",
+        "actions": {
+          "upload": "Upload"
+        }
+      },
+      "tabs": {
+        "brand_overview": "Brand Overview",
+        "assets": "Assets"
+      },
+      "assets": {
+        "preview_empty": "Select an item to see details",
+        "header": {
+          "csv": "Generate from .csv",
+          "sort": "Sort By",
+          "search": "Search"
+        },
+        "preview": {
+          "fields": {
+            "type": {
+              "label": "File Type"
+            },
+            "size": {
+              "label": "Size"
+            },
+            "created": {
+              "label": "Created On"
+            },
+            "location": {
+              "label": "Location"
+            },
+            "fontFamilyName": {
+              "label": "Font Family Name",
+              "placeholder": "Enter Font Name"
+            },
+            "fontWeight": {
+              "label": "Font Weight",
+              "placeholder": "Select",
+              "options": {
+                "thin": "Thin",
+                "extraLight": "Extra Light",
+                "light": "Light",
+                "regular": "Normal",
+                "medium": "Medium",
+                "semiBold": "Semi Bold",
+                "bold": "Bold",
+                "extraBold": "Extra Bold",
+                "black": "Heavy"
+              }
+            },
+            "fontStyle": {
+              "label": "Font Style",
+              "placeholder": "Select",
+              "options": {
+                "normal": "Normal",
+                "italic": "Italic"
+              }
+            }
+          }
+        }
+      },
+      "brandOverview": {
+        "url": {
+          "title": "Brand URL",
+          "description": "The unique web address representing your brand online, serving as a digital gateway for customers to access your products, services, and information.",
+          "placeholder": "Enter Brand URL",
+          "tooltip": "The unique web address representing your brand online, serving as a digital gateway for customers to access your products, services, and information."
+        },
+        "description": {
+          "title": "Brand Description",
+          "description": "Provide a brief overview of your brand's core identity, mission, and target audience. Highlight key aspects that distinguish your brand and its high-level goals.",
+          "placeholder": "Enter Brand Description",
+          "tooltip": "We are a sustainable fashion brand focused on eco-friendly materials. Our mission is to promote ethical production while delivering stylish and comfortable clothing for environmentally conscious consumers."
+        },
+        "brandValues": {
+          "title": "Brand Values",
+          "description": "Define your brand's principles and values. Describe how your brand speaks to its audience, ensuring consistency in tone and messaging.",
+          "placeholder": "Enter Brand Values",
+          "tooltip": "Sustainability: We prioritise eco-friendly materials. Transparency: We ensure clear communication about sourcing and manufacturing practices. Inclusivity: Our brand speaks to a diverse and inclusive audience."
+        },
+        "targetAudience": {
+          "title": "Targeted Audience",
+          "description": "A specific group of consumers identified by demographics, interests, and behaviors to maximize marketing effectiveness.",
+          "placeholder": "Enter target audience",
+          "tooltip": "Our target audience is environmentally conscious consumers aged 25-40 who value sustainable fashion and ethical production practices."
+        },
+        "adCopy": {
+          "title": "Ad Copy",
+          "description": "Outline guidelines for writing effective ad copy. Specify language that resonates with your audience and aligns with your brand's communication style.",
+          "placeholder": "Enter Ad Copy",
+          "tooltip": "Celebrate your unique style with our organic cotton tees. Be comfortable, be confident, and be you."
+        },
+        "copyGenerationRestriction": {
+          "title": "Copy Generation Restrictions",
+          "description": "Specify phrases or topics that should not be used in your brand's ad copy to avoid messaging that could conflict with your brand values.",
+          "placeholder": "Enter Copy Generation Restrictions",
+          "tooltip": "Avoid phrases such as 'cheap fashion' or 'disposable clothing.' Ensure that language reflects the brand's focus on quality and sustainability."
+        },
+        "imageGuidline": {
+          "title": "Image Use and Generation Guidelines",
+          "description": "Detail the types of images that best represent your brand visually. Share examples that illustrate your brand’s preferred look and feel.",
+          "placeholder": "Enter Image Use and Generation Guidelines",
+          "tooltip": "Feature models in outdoor settings that reflect nature and sustainability. Include close-ups of our signature eco-friendly fabrics."
+        },
+        "imageGenerationRestriction": {
+          "title": "Image Generation Restrictions",
+          "description": "Identify image types or visual elements that should be avoided to maintain alignment with your brand’s identity and values.",
+          "placeholder": "Enter Image Generation Restriction",
+          "tooltip": "Avoid indoor studio shots with bright artificial lighting. Refrain from using props or settings that don't align with the eco-friendly theme."
+        },
+        "productFeatures": {
+          "title": "Product Features and Benefits",
+          "description": "A product features are the value that customers realise from a product or service. It refer to what the user gains from using it as well as how it's better than its competitors.",
+          "placeholder": "Enter Product Features",
+          "tooltip": "Multiple Logins: Multiple contacts can login to ensure brand consistency and guidelines."
+        },
+        "colors": {
+          "title": "Color Swatches",
+          "edit": "Edit",
+          "delete": "Delete"
+        },
+        "fonts": {
+          "title": "Fonts",
+          "edit": "Edit"
+        },
+        "books": {
+          "title": "Brand Books",
+          "edit": "Edit"
+        },
+        "logos": {
+          "title": "Logos",
+          "edit": "Edit"
+        },
+        "industry": {
+          "title": "Industry Vertical"
+        },
+        "campaign": {
+          "title": "Default Campaign Objective"
+        },
+        "brandElements": {
+          "title": "Brand Elements"
+        },
+        "country": {
+          "title": "Select Country",
+          "language": {
+            "title": "Language",
+            "placeholder": "Defaults set by selected country"
+          },
+          "currency": {
+            "title": "Currency",
+            "placeholder": "Defaults set by selected country"
+          }
+        },
+        "generateOverview":{
+          "title": "Generate Overview",
+          "brandName": "Brand Name",
+          "brandPlaceholder": "Enter brand name",
+          "brandURL": "Brand URL",
+          "brandURLPlaceholder": "Enter brand url",
+          "brandBook": "Brand Book",
+          "brandBookPlaceholder": "To ensure your results are always on brand and highly creative, we need some details about your brand. Use the brand's brand book as it's incredibly rich source of information and guidelines about your brand.",
+          "visualAssets": "Visual Assets or Fonts",
+          "visualAssetsPlaceholder": "Upload visual assets such as product images, logos, background images, and fonts to train your brand's LLM",
+        "loaderPlaceholder" : "We are currently retrieving data from the Brand Book to generate the Brand Overview."
+        }
+      }
+    },
+    "onboarding": {
+      "8characters": "Must be at least 8 characters",
+      "accountCreated": "Account created, redirecting to login",
+      "aiPowered": "AI-POWERED",
+      "agree": "I agree to Omneky's",
+      "allowedEmail": "Please use a business email",
+      "brandTitle": "Generate Brand Page",
+      "businessEmail": "Business Email",
+      "cardAuthFailed": "Card Authentication failed. Please re-enter card info",
+      "cardExpiration": "MM/YY",
+      "cardDetails": "Card Details",
+      "cardHolderName": "Card Holder Name",
+      "cardNumber": "Card Number",
+      "charge": "You will not be charged for signing up",
+      "checkInbox": "Please check your inbox and click the link to sign-in",
+      "companyAccountName": "Company Account Name",
+      "companyDetails": "Company Details",
+      "confirmPassword": "Confirm Password",
+      "continue": "Continue",
+      "country": "Country",
+      "createAccount": "Create an Account",
+      "createBrief": "Creative Brief",
+      "createBriefGuide": "AI-assisted creative briefs take project-specific details about your marketing objective, target audience(s) and writing style to generate project concepts. An active Creative Brief is required to power AI-generated copy and images.",
+      "createBriefPlus": "+ Create Brief",
+      "creative": "CREATIVE",
+      "descriptionRequired": "Description is required",
+      "emailSent": "Email Verification Sent",
+      "ensureResults": "To ensure your results are always on-brand, we need some more details",
+      "fullName": "Full Name",
+      "growSales": "Grow Sales with",
+      "haveAnAccount": "Have an account? Sign in",
+      "home": "Home",
+      "includeNumber": "Must include a number",
+      "includeSpecial": "Must include a special character",
+      "invalidAccountName": "Invalid Account name",
+      "invalidChars": "Email contains invalid characters",
+      "invalidEmail": "Invalid email",
+      "invalidName": "Invalid name",
+      "languages": "Languages for Creatives",
+      "locationPaymentInfo": "Location & Payment Info",
+      "noCompanyId": "No Company ID found",
+      "password": "Password",
+      "passwordRequired": "Password is required",
+      "paymentTitle": "Payment",
+      "personalTitle": "Create Account",
+      "pleaseEnter": "Please enter your credit or debit card details to proceed. This information is necessary for setting up your payment method and ensuring seamless transactions.",
+      "productService": "Product or Service Description",
+      "readyToStart": "Ready to start? Click here to set up and launch your campaign.",
+      "redirecting": "Redirecting to login page",
+      "selectCountry": "Select country and we'll add your language and currency details",
+      "selectLanguages": "Select languages",
+      "selectTemplate": "Select Template",
+      "selectTemplateGuide": "Browse our template library or create a template by uploading a Photoshop file or building from scratch in the desired canvas dimensions. You will need to complete a Creative Brief later to power AI copy and image variations in the template 'Create Variations' feature.",
+      "schedule": "Schedule Demo",
+      "signIn": "Sign In",
+      "signUpWithOmneky": "Sign Up with Omneky",
+      "submit": "Submit",
+      "terms": "Terms and Conditions",
+      "unableBrand": "Unable to create brand",
+      "unableCompany": "Unable to create company",
+      "unableStripe": "Unable to link stripe",
+      "unableUser": "Unable to create user",
+      "unablePayment": "Unable to add payment information",
+      "urlRequired": "URL is required",
+      "webUrl": "Web URL",
+      "weveSentEmail": "We've sent an email to"
+    },
+    "projectGallery": {
+      "header": {
+        "name": "Campaigns",
+        "actions": {
+          "create": "Add Campaign"
+        },
+        "modal": {
+          "create": {
+            "title": "Create project",
+            "fields": {
+              "name": {
+                "label": "Project Name",
+                "placeholder": "Enter project name",
+                "required": "Project Name is Required"
+              }
+            },
+            "actions": {
+              "create": "Create New"
+            }
+          }
+        }
+      },
+      "main": {
+        "loading": "Loading...",
+        "empty": {
+          "actions": {
+            "create": "Add Campaign"
+          },
+          "description": "No project Found. Click on “Create Campaign” to get started on your next exciting venture!"
+        },
+        "table": {
+          "column": {
+            "name": "Name"
+          },
+          "row": {
+            "menu": {
+              "copy": "Duplicate",
+              "delete": "Delete",
+              "move": "Move",
+              "edit": "Edit Name"
+            }
+          }
+        },
+        "grid": {
+          "header": {
+            "search": {
+              "placeholder": "Search"
+            }
+          },
+          "item": {
+            "updatedSecondsAgo": "Updated {{count}} seconds ago",
+            "updatedMinutesAgo": "Updated {{count}} minutes ago",
+            "updatedHoursAgo": "Updated {{count}} hours ago",
+            "updatedDaysAgo": "Updated {{count}} days ago",
+            "updatedMonthsAgo": "Updated {{count}} months ago",
+            "updatedYearsAgo": "Updated {{count}} years ago"
+          }
+        },
+        "modal": {
+          "copyAndMove": {
+            "title": "Move Campaign",
+            "fields": {
+              "brand": {
+                "label": "Brand",
+                "placeholder": "Select Brand",
+                "required": "Brand is Required",
+                "search": {
+                  "empty": "No items",
+                  "placeholder": "Search"
+                }
+              }
+            },
+            "actions": {
+              "cancel": {
+                "label": "Cancel"
+              },
+              "secondarySubmit": {
+                "label": "Copy & Move"
+              },
+              "submit": {
+                "label": "Move"
+              }
+            }
+          },
+          "edit": {
+            "title": "Edit campaign",
+            "fields": {
+              "name": {
+                "label": "Campaign Name",
+                "placeholder": "Enter campaign name",
+                "required": "Campaign Name is Required"
+              }
+            },
+            "actions": {
+              "submit": {
+                "label": "Save"
+              }
+            }
+          }
+        }
+      },
+      "notifications": {
+        "createProject": {
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          }
+        },
+        "copyProject": {
+          "title": "Duplicating..."
+        },
+        "openProject": {
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          }
+        }
+      }
+    },
+    "projectView": {
+      "header": {
+        "breadcrumbs": {
+          "project": "Campaign",
+          "projects": "Campaigns"
+        }
+      },
+      "main": {
+        "loading": "Loading...",
+        "tabs": {
+          "creativeBrief": {
+            "name": "Creative Brief",
+            "header": {
+              "actions": {
+                "create": "Create Brief"
+              }
+            },
+            "table": {
+              "column": {
+                "name": "Name"
+              },
+              "row": {
+                "menu": {
+                  "copy": "Copy",
+                  "delete": "Delete",
+                  "edit": "Edit"
+                },
+                "status": {
+                  "active": "Active",
+                  "disabled": "Disabled",
+                  "pending": "Pending"
+                }
+              },
+              "empty": {
+                "description": "No creative briefs found for this campaign.",
+                "title": "No Creative Briefs"
+              },
+              "loading": "Loading..."
+            },
+            "modal": {
+              "create": {
+                "title": "Create New",
+                "loading": "Loading...",
+                "fields": {
+                  "name": {
+                    "label": "Name",
+                    "required": "File Name is Required"
+                  }
+                }
+              },
+              "delete": {
+                "title": "Delete Creative Brief",
+                "subTitle": "Are you sure you want to delete this Creative Brief?",
+                "actions": {
+                  "cancel": {
+                    "label": "No"
+                  },
+                  "confirm": {
+                    "label": "Yes"
+                  }
+                }
+              },
+              "google": {
+                "title": "Google"
+              },
+              "fb": {
+                "title": "Meta"
+              }
+            }
+          },
+          "templates": {
+            "name": "Templates",
+            "header": {
+              "actions": {
+                "create": "Create",
+                "templateLibrary": "New Templates",
+                "createVariations": "Create Variations"
+              }
+            },
+            "table": {
+              "column": {
+                "name": "Name"
+              },
+              "row": {
+                "menu": {
+                  "copy": "Duplicate",
+                  "delete": "Delete",
+                  "edit": "Edit Name",
+                  "generate": "Generate",
+                  "move": "Move"
+                }
+              },
+              "label": {
+                "brand": "Select a target brand",
+                "campaign": "Select a target campaign"
+              },
+              "empty": {
+                "description": "No templates found for this campaign.",
+                "title": "No Templates"
+              },
+              "loading": "Loading...",
+              "move": "Move",
+              "moveTitle": "Move Template",
+              "resize": "Copy & Resize",
+              "search": "Search..."
+            },
+            "modal": {
+              "copyAndMove": {
+                "title": "Move Template",
+                "fields": {
+                  "brand": {
+                    "label": "Brand",
+                    "placeholder": "Select Brand",
+                    "required": "Brand is Required",
+                    "search": {
+                      "empty": "No items",
+                      "placeholder": "Search"
+                    }
+                  },
+                  "project": {
+                    "label": "Campaign",
+                    "placeholder": "Select Campaign",
+                    "required": "Campaign is Required",
+                    "search": {
+                      "empty": "No items",
+                      "placeholder": "Search"
+                    }
+                  }
+                },
+                "actions": {
+                  "cancel": {
+                    "label": "Cancel"
+                  },
+                  "secondarySubmit": {
+                    "label": "Copy & Move"
+                  },
+                  "submit": {
+                    "label": "Move"
+                  }
+                }
+              },
+              "create": {
+                "title": "Create New",
+                "loading": "Loading...",
+                "fields": {
+                  "name": {
+                    "label": "Name",
+                    "required": "Template Name is Required"
+                  },
+                  "isCustomSize": {
+                    "label": "Custom Size:"
+                  },
+                  "height": {
+                    "label": "Height",
+                    "placeholder": "Height"
+                  },
+                  "width": {
+                    "label": "Width",
+                    "placeholder": "Width"
+                  },
+                  "templateType": {
+                    "label": "Select Type",
+                    "items": {
+                      "image": {
+                        "label": "Image"
+                      },
+                      "video": {
+                        "label": "Video"
+                      }
+                    }
+                  }
+                },
+                "actions": {
+                  "create": "Create New",
+                  "selectTemplate": {
+                    "label": "Select Template",
+                    "loading": "Hang tight! AI-Powered Template Selection is in the works."
+                  },
+                  "cancel": {
+                    "label": "Cancel"
+                  },
+                  "submit": {
+                    "label": "Create"
+                  }
+                },
+                "items": {
+                  "1080x1080": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1 : 1 (1080x1080)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1080x1350": {
+                    "dimensionText": "4 : 5 (1080x1350)"
+                  },
+                  "1080x1920": {
+                    "imageText": "Single Image",
+                    "dimensionText": "9 : 16 (1080x1920)",
+                    "adTypeText": "Stories"
+                  },
+                  "1200x1200": {
+                    "dimensionText": "1 : 1 (1200x1200)"
+                  },
+                  "1200x628": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1.91 : 1 (1200x628)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1280x720": {
+                    "dimensionText": "16 : 9 (1280x720)"
+                  },
+                  "160x600": {
+                    "dimensionText": "4 : 15 (160x600)"
+                  },
+                  "1920x1080": {
+                    "dimensionText": "16 : 9 (1920x1080)"
+                  },
+                  "1920x1920": {
+                    "dimensionText": "1 : 1 (1920x1920)"
+                  },
+                  "250x250": {
+                    "dimensionText": "1 : 1 (250x250)"
+                  },
+                  "300x250": {
+                    "dimensionText": "6 : 5 (300x250)"
+                  },
+                  "300x600": {
+                    "dimensionText": "3 : 6 (300x600)"
+                  },
+                  "320x100": {
+                    "dimensionText": "16 : 5 (320x100)"
+                  },
+                  "320x50": {
+                    "dimensionText": "32 : 5 (320x50)"
+                  },
+                  "336x280": {
+                    "dimensionText": "6 : 5 (336x280)"
+                  },
+                  "360x640": {
+                    "dimensionText": "9 : 16 (360x640)"
+                  },
+                  "628x1200": {
+                    "dimensionText": "157 : 300 (628x1200)"
+                  },
+                  "640x360": {
+                    "dimensionText": "16 : 9 (640x360)"
+                  },
+                  "640x640": {
+                    "dimensionText": "1 : 1 (640x640)"
+                  },
+                  "720x1280": {
+                    "dimensionText": "9 : 16 (720x1280)"
+                  },
+                  "720x900": {
+                    "dimensionText": "4 : 5 (720x900)"
+                  },
+                  "728x90": {
+                    "dimensionText": "26 : 3 (728x90)"
+                  },
+                  "970x90": {
+                    "dimensionText": "97 : 9 (970x90)"
+                  }
+                }
+              },
+              "custom": {
+                "label": "Custom"
+              },
+              "google": {
+                "image": {
+                  "label": "Google"
+                },
+                "video": {
+                  "label": "YouTube"
+                }
+              },
+              "fb": {
+                "image": {
+                  "label": "Meta"
+                }
+              },
+              "linkedin": {
+                "image": {
+                  "label": "LinkedIn Image"
+                },
+                "video": {
+                  "label": "LinkedIn Video"
+                }
+              },
+              "tiktok": {
+                "video": {
+                  "label": "TikTok"
+                }
+              },
+              "edit": {
+                "title": "Edit Template",
+                "fields": {
+                  "name": {
+                    "duplicate": "Template Name already exists",
+                    "label": "Name",
+                    "placeholder": "Enter Template Name",
+                    "required": "Template Name is Required"
+                  }
+                },
+                "actions": {
+                  "submit": {
+                    "label": "Save"
+                  }
+                }
+              },
+              "move": {
+                "title": "Move Template",
+                "actions": {
+                  "submit": {
+                    "label": "Copy & Resize"
+                  }
+                }
+              },
+              "resize": {
+                "title": "Select Sizes",
+                "actions": {
+                  "submit": {
+                    "label": "Copy & Resize"
+                  }
+                }
+              }
+            }
+          },
+          "adInstance": {
+            "modal": {
+              "copyAndMove": {
+                "title": "Move Ad Instance",
+                "fields": {
+                  "brand": {
+                    "label": "Brand",
+                    "placeholder": "Select Brand",
+                    "required": "Brand is Required"
+                  },
+                  "project": {
+                    "label": "Campaign",
+                    "placeholder": "Select Campaign",
+                    "required": "Campaign is Required"
+                  }
+                },
+                "actions": {
+                  "cancel": {
+                    "label": "Cancel"
+                  },
+                  "secondarySubmit": {
+                    "label": "Copy & Move"
+                  },
+                  "submit": {
+                    "label": "Move"
+                  }
+                }
+              },
+              "create": {
+                "title": "Create New",
+                "loading": "Loading...",
+                "fields": {
+                  "name": {
+                    "label": "Name",
+                    "required": "File Name is Required"
+                  },
+                  "isCustomSize": {
+                    "label": "Custom Size:"
+                  },
+                  "height": {
+                    "label": "Height",
+                    "placeholder": "Height"
+                  },
+                  "width": {
+                    "label": "Width",
+                    "placeholder": "Width"
+                  },
+                  "templateType": {
+                    "label": "Select Type",
+                    "items": {
+                      "image": {
+                        "label": "Image"
+                      },
+                      "video": {
+                        "label": "Video"
+                      }
+                    }
+                  }
+                },
+                "actions": {
+                  "create": "Create New",
+                  "selectTemplate": {
+                    "label": "Select Template",
+                    "loading": "Hang tight! AI-Powered Template Selection is in the works."
+                  },
+                  "cancel": {
+                    "label": "Cancel"
+                  },
+                  "submit": {
+                    "label": "Create"
+                  }
+                },
+                "items": {
+                  "1080x1080": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1 : 1 (1080x1080)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1080x1350": {
+                    "dimensionText": "4 : 5 (1080x1350)"
+                  },
+                  "1080x1920": {
+                    "imageText": "Single Image",
+                    "dimensionText": "9 : 16 (1080x1920)",
+                    "adTypeText": "Stories"
+                  },
+                  "1200x1200": {
+                    "dimensionText": "1 : 1 (1200x1200)"
+                  },
+                  "1200x628": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1.91 : 1 (1200x628)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1280x720": {
+                    "dimensionText": "16 : 9 (1280x720)"
+                  },
+                  "160x600": {
+                    "dimensionText": "4 : 15 (160x600)"
+                  },
+                  "1920x1080": {
+                    "dimensionText": "16 : 9 (1920x1080)"
+                  },
+                  "1920x1920": {
+                    "dimensionText": "1 : 1 (1920x1920)"
+                  },
+                  "250x250": {
+                    "dimensionText": "1 : 1 (250x250)"
+                  },
+                  "300x250": {
+                    "dimensionText": "6 : 5 (300x250)"
+                  },
+                  "300x600": {
+                    "dimensionText": "3 : 6 (300x600)"
+                  },
+                  "320x100": {
+                    "dimensionText": "16 : 5 (320x100)"
+                  },
+                  "320x50": {
+                    "dimensionText": "32 : 5 (320x50)"
+                  },
+                  "336x280": {
+                    "dimensionText": "6 : 5 (336x280)"
+                  },
+                  "360x640": {
+                    "dimensionText": "9 : 16 (360x640)"
+                  },
+                  "628x1200": {
+                    "dimensionText": "157 : 300 (628x1200)"
+                  },
+                  "640x360": {
+                    "dimensionText": "16 : 9 (640x360)"
+                  },
+                  "640x640": {
+                    "dimensionText": "1 : 1 (640x640)"
+                  },
+                  "720x1280": {
+                    "dimensionText": "9 : 16 (720x1280)"
+                  },
+                  "720x900": {
+                    "dimensionText": "4 : 5 (720x900)"
+                  },
+                  "728x90": {
+                    "dimensionText": "26 : 3 (728x90)"
+                  },
+                  "970x90": {
+                    "dimensionText": "97 : 9 (970x90)"
+                  }
+                }
+              },
+              "edit": {
+                "title": "Edit Ad Instance",
+                "fields": {
+                  "name": {
+                    "label": "Name",
+                    "placeholder": "Enter Ad Instance Name",
+                    "required": "Ad Instance Name is Required"
+                  }
+                },
+                "actions": {
+                  "submit": {
+                    "label": "Save"
+                  }
+                }
+              },
+              "delete": {
+                "title": "Delete Ad Instance",
+                "actions": {
+                  "confirm": {
+                    "label": "Delete",
+                    "text": "Are you sure you want to delete this ad instance?"
+                  },
+                  "cancel": {
+                    "label": "Cancel"
+                  },
+                  "notification": {
+                 "title": "Deleted successfully",
+                 "description": "Ad Instance deleted successfully."
+                  }
+                }
+              }
+            }
+          },
+          "generatedAds": {
+            "name": "Generated Ads",
+            "grid": {
+              "loading": "Loading..."
+            },
+            "header": {
+              "actions": {
+                "export": "Export",
+                "selectAll": "Select All",
+                "deselectAll": "Deselect All",
+                "filter": {
+                  "placeholder": "Search",
+                  "size": "Select Size",
+                  "platform": "Select Platform"
+                }
+              }
+            },
+            "modal": {
+              "create": {
+                "title": "Create New",
+                "fields": {
+                  "name": {
+                    "label": "Name",
+                    "required": "File Name is Required"
+                  }
+                },
+                "actions": {
+                  "create": "Create New"
+                },
+                "items": {
+                  "1080x1080": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1 : 1 (1080x1080)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1080x1350": {
+                    "dimensionText": "4 : 5 (1080x1350)"
+                  },
+                  "1080x1920": {
+                    "imageText": "Single Image",
+                    "dimensionText": "9 : 16 (1080x1920)",
+                    "adTypeText": "Stories"
+                  },
+                  "1200x1200": {
+                    "dimensionText": "1 : 1 (1200x1200)"
+                  },
+                  "1200x628": {
+                    "imageText": "Single Image",
+                    "dimensionText": "1.91 : 1 (1200x628)",
+                    "adTypeText": "Feed & Reels"
+                  },
+                  "1280x720": {
+                    "dimensionText": "16 : 9 (1280x720)"
+                  },
+                  "1920x1080": {
+                    "dimensionText": "16 : 9 (1920x1080)"
+                  },
+                  "1920x1920": {
+                    "dimensionText": "1 : 1 (1920x1920)"
+                  },
+                  "300x250": {
+                    "dimensionText": "6 : 5 (300x250)"
+                  },
+                  "300x600": {
+                    "dimensionText": "3 : 6 (300x600)"
+                  },
+                  "320x100": {
+                    "dimensionText": "16 : 5 (320x100)"
+                  },
+                  "320x50": {
+                    "dimensionText": "32 : 5 (320x50)"
+                  },
+                  "336x280": {
+                    "dimensionText": "6 : 5 (336x280)"
+                  },
+                  "628x1200": {
+                    "dimensionText": "157 : 300 (628x1200)"
+                  },
+                  "720x1280": {
+                    "dimensionText": "9 : 16 (720x1280)"
+                  },
+                  "720x900": {
+                    "dimensionText": "4 : 5 (720x900)"
+                  },
+                  "780x90": {
+                    "dimensionText": "26 : 3 (780x90)"
+                  },
+                  "970x90": {
+                    "dimensionText": "97 : 9 (970x90)"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "noFound": {
+          "title": "Oops! Nothing here.",
+          "subtitle": "Most likely because the campaign no longer exists",
+          "actions": {
+            "back": "Return Home"
+          }
+        }
+      },
+      "notifications": {
+        "copyTemplate": {
+          "title": "Duplicating..."
+        },
+        "deleteCreativeBrief": {
+          "warning": {
+            "active": {
+              "title": "Cannot delete active Creative Brief"
+            }
+          }
+        },
+        "disableCreativeBrief": {
+          "warning": {
+            "title": "One Creative Brief should be active"
+          }
+        },
+        "generateTemplate": {
+          "title": "Generating..."
+        },
+        "moveTemplate": {
+          "title": "Moving..."
+        }
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "currentLanguage": {
+        "name": "English US",
+        "locale": "en-us",
+        "shortLocale": "en"
+      },
+      "personalInfo": {
+        "title": "Personal Info",
+        "modal": {
+          "title": "Edit Personal Info",
+          "button": "Save Changes"
+        },
+        "fields": {
+          "name": {
+            "label": "Name",
+            "placeholder": "Enter your name",
+            "required": "Name is required"
+          },
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter your email",
+            "required": "Email is required"
+          },
+          "transferOwnership": {
+            "label": "Transfer Ownership",
+            "heading": "Transfer Account Ownership",
+            "placeholder": "You are the owner of the Omneky account and all of its sub-brands. If you want to change ownership of account click on Transfer Ownership button.",
+            "agreement": "Transferring account ownership will restrict your ability to manage brand-level settings. Proceed with caution, as this action is irreversible",
+            "button": "Transfer"
+  
+          }
+        }
+      },
+      "brandAndUsers": {
+        "title": "Brands & Users",
+        "brandSettings":{
+          "heading": "Brand Configuration",
+          "basicInformation":{
+            "heading": "Basic Information",
+            "name": {
+              "label": "Brand Name",
+              "placeholder": "Enter brand name",
+              "required": "Brand name is required"
+            },
+            "updateButton": "Update"
+  
+          }
+        },
+        "deleteUser": {
+          "title": "Delete user",
+          "confirmation": "Are you sure you want to remove this user?",
+          "yes": "Yes",
+          "no": "No"
+        },
+        "archiveBrand": {
+          "title": "Archive brand",
+          "confirmation": "Are you sure you want to archive this brand?",
+          "yes": "Yes",
+          "no": "No"
+        },
+        "role": {
+          "admin": "Admin",
+          "editor": "Standard"
+        },
+        "addExistingUsers": {
+          "modal": {
+            "title": "Add User",
+            "searchLabel": "Search by Name or Email",
+            "cancelButton": "Cancel",
+            "addButton": "Add"
+          }
+        },
+        "inviteUser": {
+          "button": "Invite User",
+          "email": {
+            "label": "Email",
+            "placeholder": "Enter email",
+            "required": "Email is required"
+          },
+          "role": {
+            "label": "Brand Access",
+            "brandName": "Brand Name"
+          }
+        }
+      },
+      "accountInfo": {
+        "title": "Account Info",
+        "modal": {
+          "title": "Edit Account Info",
+          "button": "Save Changes"
+        },
+        "fields": {
+          "name": {
+            "label": "Business Name"
+          }
+        }
+      },
+      "security": {
+        "title": "Security",
+        "changePassword": {
+          "button": "Change Password"
+        },
+        "modal": {
+          "title": "Change Password",
+          "cancelButton": "Cancel",
+          "changePasswordButton": "Change Password"
+        },
+        "desc": "To set a password for your account for the first time, please use the password reset page to verify your identity",
+        "fields": {
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter your old password",
+            "required": "Password is required"
+          },
+          "newPassword": {
+            "label": "New Password",
+            "placeholder": "Enter your new password",
+            "required": "Password must contain at least 1 lowercase, 1 uppercase, 1 number, 1 special character and must be at least 10 characters long"
+          },
+          "passwordConfirm": {
+            "label": "Password Confirm",
+            "placeholder": "Enter your new password",
+            "required": "Password does not match"
+          }
+        }
+      }
+    },
+    "sideDrawer": {
+      "navigation": {
+        "analyze": "Analyze",
+        "globalAnalyze": "Global Analyze",
+        "library": "Brand Management",
+        "pgp": "Product Generation Pro",
+        "setting": "Settings",
+        "projects": "Campaigns",
+        "brand": {
+          "search": {
+            "empty": "No items",
+            "placeholder": "Search"
+          },
+          "placeholder": "Pick value"
+        }
+      },
+      "footer": {
+        "poweredBy": "Powered by",
+        "version": "Version"
+      }
+    },
+    "templateBuilder": {
+      "header": {
+        "actions": {
+          "manageContent": "Create Variations"
+        }
+      },
+      "main": {
+        "leftPanel": {
+          "textAssetSource": {
+            "benefit": {
+              "label": "Benefit",
+              "text": "Benefit"
+            },
+            "copy": {
+              "label": "Copy",
+              "text": "Copy"
+            },
+            "cta": {
+              "label": "CTA",
+              "text": "Call-to-action"
+            },
+            "headline": {
+              "label": "Headline",
+              "text": "Headline"
+            },
+            "feature": {
+              "label": "Feature",
+              "text": "Feature"
+            },
+            "offer": {
+              "label": "Offer",
+              "text": "Offer"
+            },
+            "price": {
+              "label": "Price",
+              "text": "Price"
+            },
+            "subHeadline": {
+              "label": "Subhead",
+              "text": "Subheadline"
+            },
+            "tagline": {
+              "label": "Tagline",
+              "text": "Tagline"
+            }
+          }
+        },
+        "editor": {
+          "actions": {
+            "placeholder": {
+              "label": "Placeholder"
+            }
+          },
+          "library": {
+            "title": "Library"
+          }
+        },
+        "saveModal": {
+          "title": "Placeholders Updated",
+          "subTitle": "What would you like to do with existing content?",
+          "options": {
+            "generateAll": {
+              "title": "Re-generate",
+              "description": "Will overwrite all existing content across all placeholders."
+            },
+            "generateNew": {
+              "title": "Generate new",
+              "description": ""
+            },
+            "noGenerate": {
+              "title": "Do nothing",
+              "description": "Any existing content will remain as is. No new content will be generated for any newly added or edited placeholders."
+            }
+          },
+          "saveOption": {
+            "required": "Save option is required"
+          },
+          "submit": "Confirm"
+        },
+        "modal": {
+          "changeSceneMode": {
+            "design": {
+              "title": "Confirm Template Change",
+              "subTitle": "You are about to switch from an Image template to a Video template. This change will alter the export format from PNG to MP4. Are you sure you want to proceed?"
+            },
+            "video": {
+              "title": "Confirm Template Change",
+              "subTitle": "You are about to switch from a Video template to an Image template. This change will alter the export format from MP4 to PNG. Are you sure you want to proceed?"
+            },
+            "actions": {
+              "cancel": {
+                "label": "Cancel"
+              },
+              "confirm": {
+                "label": "Yes, Proceed"
+              }
+            }
+          }
+        }
+      }
+    },
+    "adBuilder": {
+      "actions": {
+        "save": {
+          "notification": "Updated successfully",
+          "description": "Ad Instance updated successfully."
+        }
+      }
+    },
+    "templateView": {
+      "header": {
+        "actions": {
+          "back": "Back",
+          "edit": "Edit",
+          "generate": "Generate",
+          "generateAll": "Generate All Templates",
+          "generateOne": "Generate This Template",
+          "generateImages": "Generate Images",
+          "generateVideos": "Generate Videos"
+        }
+      },
+      "main": {
+        "grid": {
+          "contextMenu": {
+            "expand": "Expand",
+            "reGenerate": "Generate",
+            "rewrite": "Rewrite",
+            "shorten": "Shorten"
+          },
+          "cell": {
+            "actions": {
+              "addImage": {
+                "label": "Add Image"
+              }
+            }
+          },
+          "modal": {
+            "uploadImage": {
+              "title": "Upload Image",
+              "tabs": {
+                "assets": {
+                  "label": "From Assets",
+                  "header": {
+                    "search": {
+                      "placeholder": "Search",
+                      "options": {
+                        "content": {
+                          "title": "By Content"
+                        },
+                        "name": {
+                          "title": "By Name"
+                        }
+                      }
+                    }
+                  },
+                  "main": {
+                    "contextMenu": {
+                      "fileUpload": {
+                        "label": "File Upload"
+                      },
+                      "folderUpload": {
+                        "label": "Folder Upload"
+                      },
+                      "remove": {
+                        "label": "Remove"
+                      }
+                    }
+                  }
+                },
+                "local": {
+                  "label": "From Computer",
+                  "dragAndDrop": {
+                    "label": "Drag And Drop Your Files Here or ",
+                    "labelSuffix": "Browse",
+                    "description": ".jpg, .png, .svg"
+                  }
+                },
+                "library": {
+                  "label": "From Library"
+                },
+                "generate": {
+                  "label": "Generate Image",
+                  "fields": {
+                    "prompt": {
+                      "label": "Describe the image to generate:",
+                      "placeholder": "Write your prompt here...",
+                      "required": "Prompt is required",
+                      "tooltip": {
+                        "label": "Tips for good prompt",
+                        "placeholder": "Start typing to get suggestions for a good prompt for generating images."
+                      }
+  
+                    },
+                    "size": {
+                      "label": "What size you want the image to be:",
+                      "items": {
+                        "1x1": {
+                          "label": "1:1 (1080x1080px)"
+                        },
+                        "4x5": {
+                          "label": "4:5 (1080x1350px)"
+                        },
+                        "16x9": {
+                          "label": "16:9 (1920x1080px)"
+                        },
+                        "9x16": {
+                          "label": "9:16 (1080x1920px)"
+                        },
+                        "1_91x1": {
+                          "label": "1.91:1 (1200x630px)"
+                        }
+                      }
+                    }
+                  },
+                  "filters": {
+                    "timestamp": {
+                      "default": {
+                        "label": "today"
+                      }
+                    }
+                  },
+                  "actions": {
+                    "removeBackground": {
+                      "label": "Remove Background"
+                    },
+                    "removeForeground": {
+                      "label": "Remove Foreground"
+                    },
+                    "submit": {
+                      "label": "Generate"
+                    }
+                  }
+                }
+              },
+              "actions": {
+                "cancel": {
+                  "label": "Cancel"
+                },
+                "confirm": {
+                  "label": "Upload"
+                }
+              }
+            }
+          },
+          "notifications": {
+            "shorten": "Shortening text...",
+            "expand": "Extending text...",
+            "reGenerate": "Generating text...",
+            "rewrite": "Rewriting text..."
+          },
+          "loading": "Generating content. This normally takes about 30 seconds.",
+          "activeBrief": "Active Brief"
+        }
+      },
+      "notifications": {
+        "createFolderItem": {
+          "info": {
+            "processUpload": {
+              "title": "Uploading..."
+            }
+          },
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            }
+          }
+        },
+        "createMediaItem": {
+          "info": {
+            "processUpload": {
+              "title": "Uploading..."
+            },
+            "processVectorize": {
+              "title": "Vectorizing..."
+            }
+          },
+          "warning": {
+            "noBrand": {
+              "title": "No Brand Selected"
+            },
+            "failedUpload": {
+              "title": "Upload failed. Please try again."
+            }
+          }
+        }
+      }
+    },
+    "templateHub": {
+      "title": "Template Hub",
+      "actions": {
+        "backToMyTemplates": "Back to My Templates"
+      },
+      "tabs": {
+        "templateLibrary": {
+          "title": "Template Library",
+          "search": {
+            "placeholder": "Search",
+            "reset": "Reset",
+            "search": "Search"
+          },
+          "filters": {
+            "label": "Filters",
+            "orientation": {
+              "label": "Orientation",
+              "options": {
+                "square": "Square",
+                "landscape": "Landscape",
+                "portrait": "Portrait"
+              }
+            },
+            "industry": {
+              "label": "Industry",
+              "options": {
+                "ai": "AI",
+                "alcohol": "Alcohol",
+                "automotive": "Automotive",
+                "consumerPackagedGoods": "Consumer Packaged Goods",
+                "crypto": "Crypto",
+                "eCommerce": "E-Commerce",
+                "education": "Education",
+                "fashion": "Fashion",
+                "finance": "Finance",
+                "foodAndBeverage": "Food and Beverage",
+                "gaming": "Gaming",
+                "healthAndWellness": "Health and Wellness",
+                "insurance": "Insurance",
+                "mobileApp": "Mobile App",
+                "realEstate": "Real Estate",
+                "retail": "Retail",
+                "services": "Services",
+                "softwareAsAService": "Software as a Service",
+                "sportsAndEntertainment": "Sports & Entertainment",
+                "techProduct": "Tech Product",
+                "travel": "Travel"
+              }
+            },
+            "theme": {
+              "label": "Theme",
+              "options": {
+                "announcement": "Announcement",
+                "business": "Business",
+                "comparative": "Comparative",
+                "informational": "Informational",
+                "onlineShop": "Online Shop",
+                "promotional": "Promotional",
+                "sale": "Sale",
+                "seasonal": "Seasonal",
+                "storytelling": "Storytelling",
+                "testimonial": "Testimonial",
+                "visualDemonstration": "Visual Demonstration"
+              }
+            },
+            "style": {
+              "label": "Style",
+              "options": {
+                "authentic": "Authentic",
+                "bold": "Bold",
+                "elegant": "Elegant",
+                "humorous": "Humorous",
+                "minimalist": "Minimalist",
+                "modern": "Modern",
+                "professional": "Professional"
+              }
+            }
+          }
+        },
+        "suggestedTemplates": {
+          "title": "Suggested Templates"
+        },
+        "createNewTemplates": {
+          "title": "Create New Templates",
+          "psd": {
+            "import": "Import .psd",
+            "title": ".psd Importer",
+            "headline": "Click to select files",
+            "subheadline": "Files must have a .psd extension",
+            "errorTitle": "Error",
+            "errorMessage": "Unable to upload file."
+          }
+        }
+      },
+      "modal": {
+        "openInEditor": {
+          "actions": {
+            "confirm": {
+              "label": "View in Editor"
+            }
+          }
+        }
+      }
+    },
+    "assetGallery": {
+      "header": {
+        "search": {
+          "placeholder": "Search",
+          "options": {
+            "content": {
+              "title": "By Content"
+            },
+            "name": {
+              "title": "By Name"
+            }
+          }
+        }
+      },
+      "main": {
+        "empty": {
+          "title": "No assets found"
+        },
+        "grid": {
+          "file": {
+            "tooltip": {
+              "editName": {
+                "label": "Click to edit"
+              },
+              "invalidName": {
+                "label": "Invalid file name"
+              }
+            }
+          },
+          "folder": {
+            "tooltip": {
+              "defaultName": {
+                "label": "Default Folder"
+              },
+              "editName": {
+                "label": "Click to edit"
+              },
+              "invalidName": {
+                "label": "Invalid folder name"
+              }
+            }
+          }
+        },
+        "list": {
+          "file": {
+            "tooltip": {
+              "editName": {
+                "label": "Click to edit"
+              },
+              "invalidName": {
+                "label": "Invalid file name"
+              }
+            }
+          },
+          "folder": {
+            "tooltip": {
+              "defaultName": {
+                "label": "Default Folder"
+              },
+              "editName": {
+                "label": "Click to edit"
+              },
+              "invalidName": {
+                "label": "Invalid folder name"
+              }
+            }
+          }
+        },
+        "contextMenu": {
+          "file": {
+            "remove": {
+              "label": "Remove"
+            },
+            "upload":{
+              "label": "File Upload"
+            }
+          },
+          "folder": {
+            "create":{
+              "label": "Create Folder"
+            },
+            "remove": {
+              "label": "Remove"
+            },
+            "upload":{
+              "label": "Folder Upload"
+            }
+          }
+        }
+      }
+    }
+  }
+  
